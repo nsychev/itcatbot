@@ -1,0 +1,203 @@
+{
+  "start": {
+    "ru": "\u270b Привет! Меня зовут @ITCatBot, я бот, созданный для чата IT-кота!\nМеня разработал @nsychev.\nНапиши /help и я тебе расскажу, что я умею!\nP.S. В групповых чатах я отвечаю только если меня упомянут сразу после команды (например, \"/help@ITCatBot\").",
+    "en": "\u270b Hello! I'm @ITCatBot, bot created for IT-cat chat room!\nMy author is @nsychev.\nType /help to learn all my features\nP.S. Notice that I will reply on your commands in group chat only if you mention me after the command (like \"/help@ITCatBot\")."
+  },
+  "help_error": {
+    "ru": "\u274c Раздел помощи не найден. Попробуй набрать /help",
+    "en": "\u274c Requested spport section isn't found. Try to type /help"
+  },
+  "help_map": {
+    "ru": "\u2139 Помощь по команде \u26f2 /map:\n\n/map — вернуть одно из 25 интересных мест на Google Картах\n/map {place} — вернуть карту по запросу place (zoom = 9)\n/map {zoom} {place} — вернуть карту по запросу place с нужным увеличением (zoom — целое число от 0 [самый маленький] до 20 [самый крупный])",
+    "en": "\u2139 Help for \u26f2 /map command:\n\n/map — get one of 25 interesting places on Google Maps\n/map {place} — get map for query 'place' (zoom = 9)\n/map {zoom} {place} — get map for query 'place' with custom zoom (zoom — numeric from 0 [smallest] to 20 [biggest])"
+  },
+  "help_casino": {
+    "ru": "\u2139 Помощь по команде \ud83c\udfb0 /casino:\n\n/casino  — выбираются три случайных цифры, если они совпадают, но ни одна из них не шестерка — вы выиграли.",
+    "en": "\u2139 Help for \ud83c\udfb0 /casino command:\n\n/casino — select three random digits, if they are equal, but no one of them is six — you are win."
+  },
+  "help_dev": {
+    "ru": "\u2139 Помощь по команде \ud83d\udcbb /dev:\nВозвращает случайный ответ девелопера.\n\nИспользование в ЛС: /dev\nИспользование в групповых чатах: /dev@ITCatBot",
+    "en": "\u2139 Help for \ud83d\udcbb /dev command:\nReturns random developer's answer (in Russian)\n\nUsage in PM: /dev\nUsage in group chats: /dev@ITCatBot"
+  },
+  "temp_spam": {
+    "ru": "\u2139 В целях борьбы со спамом мы ограничиваем ответы на частые сообщения.\nВы забанены на 20 секунд с момента моего последнего ответа.\nКаждая лишняя команда (/...@itcatbot ...) увеличит ваш бан на 10 секунд.\nЕсли ваш бан достигнет 100 секунд — вы будете забанены навсегда.\nТекущее время у бота: {time}\nВремя разбана: {unban}",
+    "en": "\u2139 We are restrict very frequent messages for fighting with spam.\nYou are temporarily banned for 20 second from I answered you last time.\nEach command message to me (like /...@itcatbot ...) will increase ban time for 10 seconds.\nIf your ban will get to 100 seconds, you will banned permamently.\nCurrent bot's time: {time}\nUnban time (GMT): {unban}"
+  },
+  "help_qa": {
+    "ru": "\u2139 Помощь по команде \ud83d\udcbb /qa:\nВозвращает случайный ответ QA.\n\nИспользование в ЛС: /qa\nИспользование в групповых чатах: /qa@ITCatBot",
+    "en": "\u2139 Help for \ud83d\udcbb /qa command:\nReturns random QA answer (in Russian)\n\nUsage in PM: /qa\nUsage in group chats: /qa@ITCatBot"
+  },
+  "help_okcite": {
+    "ru": "\u2139 Помощь по команде \ud83d\ude1c /okcite:\nВозвращает случайный коммент с Одноклассников.\n\nИспользование в ЛС: /okcite\nИспользование в групповых чатах: /okcite@ITCatBot",
+    "en": "\u2139 Help for \ud83d\ude1c /okcite command:\nReturns random comment from Russian social site OK.ru\n\nUsage in PM: /okcite\nUsage in group chats: /okcite@ITCatBot"
+  },
+  "help_weather": {
+    "ru": "\u2139 Помощь по команде /weather ещё не готова",
+    "en": "\u2139 Help for /weather command isn't ready"
+  },
+  "help": {
+    "ru": "\u2139 Что я могу для тебя сделать?\n\n\ud83c\uddec\ud83c\udde7 /english — включить английский язык\n\ud83c\udfb0 /casino — испытай удачу\n\ud83d\ude1c /okcite — узнай, о чем думают жители ОК\n\u26f2 /map — карта мира\n\ud83d\udcbb /dev — ответы девелопера на все случаи жизни\n\ud83d\udcbb /qa — ответы QA для всех заказчиков\n\u2600 /weather — погода там, где ты живешь\nПодробнее о каждой команде: /help <cmdname>\nНе забудь, что в групповых чатах надо упомянуть меня, например: /map@ITCatBot Moscow\nЕсли ты не хочешь, чтобы я тебе отвечал, просто напиши /ignore\nПредложения можно отправить мне: @nsychev",
+    "en": "\u2139 What can I do for you?\n\ud83c\uddf7\ud83c\uddfa /russian — switch to russian language\n\ud83c\udfb0 /casino — try your luck\n\ud83d\ude1c /okcite - learn about what do OK users think\n\u26f2 /map — get world map\n\ud83d\udcbb /dev - (in Russian only now) developer's cite for any case\n\ud83d\udcbb /qa — ответы QA для всех заказчиков\n\u2600 /weather — weather in the world\nMore information about command: /help <cmdname>\nDon't forget that in group chat you need to mention me: /map@ITCatBot Moscow\nIf you don't want to tell with bot, type /ignore\nSend your suggestions to @nsychev"
+  },
+  "error": {
+    "ru": "\u274c Таким командам меня ещё не научили :(",
+    "en": "\u274c I don't know this command :("
+  },
+  "settings_error": {
+    "ru": "Неверный формат сообщения",
+    "en": "Invalid message format"
+  },
+  "ignore_on": {
+    "ru": "Бот не ответит ни на одно ваше сообщение. Для выключения режима отправь /ignoreoff",
+    "en": "Bot won't reply on your messages. For enabling bot send /ignoreoff"
+  },
+  "ignore_off": {
+    "ru": "\u270b И снова здравствуйте!",
+    "en": "\u270b Hello! Glad to hear you again!"
+  },
+  "admin_reload": {
+    "ru": "\u2139 Успешно!\n\n\u2705 Локализация перезагружена\n\u2705 Данные пользователей перезагружены\n\u2705 Словарь перезагружен\n\u2705 Картинки из ОК перезагружены\n\u2705 Места из Google Maps перезагружены\n\u2705 Ответы девелоперов перезагружены",
+    "en": "\u2139 Successful!\n\n\u2705 Localization is reloaded\n\u2705 Settings are reloaded\n\u2705 Dictionary is reloaded\n\u2705 OK pictures are reloaded\n\u2705 Google Maps places are reloaded\n\u2705 Developer Answer Standard Library is reloaded"
+  },
+  "map_about": {
+    "ru": "\u2139 Информация о месте:\nНазвание: {desc}\nКоординаты: {place}",
+    "en": "\u2139 Place information:\nName: {desc}\nCoordinates: {place}"
+  },
+  "move_moderators": {
+    "ru": "\u2705 Пользователь {login} успешно переведен в группу 'Модераторы'",
+    "en": "\u2705 User {login} is moved to 'Moderators' group"
+  },
+  "move_moderators_fail": {
+    "ru": "\u274c Извините, но пользователь {login} уже в группе 'Модераторы'",
+    "en": "\u274c Sorry, but user {login} is already in group 'Moderators'"
+  },
+  "move_users": {
+    "ru": "\u2705 Пользователь {login} успешно переведен в группу 'Пользователи'",
+    "en": "\u2705 User {login} is successfly moved to 'Users' group"
+  },
+  "move_users_fail": {
+    "ru": "\u274c Пользователь {login} уже в группе 'Пользователи'",
+    "en": "\u274c User {login} is already in 'Users' group"
+  },
+  "move_ban": {
+    "ru": "\u2705 Пользователь {login} забанен",
+    "en": "\u2705 User {login} is banned"
+  },
+  "move_ban_fail": {
+    "ru": "\u274c Пользователь {login} уже забанен",
+    "en": "\u274c User {login} is already banned"
+  },
+  "send_sticker": {
+    "ru": "Отправь стикер, чтобы узнать его Sticker ID",
+    "en": "Send me a sticker to get its Sticker ID"
+  },
+  "teach_already": {
+    "ru": "\u274c Баяяяян",
+    "en": "\u274c I've already known this phrase when Caesar bore"
+  },
+  "teach_oneword": {
+    "ru": "\u274c Я не могу отвечать на фразы короче трех слов",
+    "en": "\u274c I can't answer on phrases which short than three words"
+  },
+  "teach": {
+    "ru": "\u2705 Спасибо! Теперь я знаю ещё одну фразу!",
+    "en": "\u2705 OK, I remember it for you"
+  },
+  "unteach_fail": {
+    "ru": "\u274c Как можно забыть то, чего и так не знаешь?",
+    "en": "\u274c I can forget phrase only if I will know it, but I don't know this phrase."
+  },
+  "unteach": {
+    "ru": "\u2705 Этой фразы больше нет на моем SSD",
+    "en": "\u2705 I forget it!"
+  },
+  "weather": {
+    "ru": "\u2139 Погода в городе {name} (id: {id})\n{emoji} {conditions}\nТемпература: {temp}\u00b0C\n\ud83d\udca8 Ветер: {wind[smile]} {wind[direction]}, скорость: {wind[speed]} м/с\n\ud83d\udca7 Влажность: {humidity}%\nАтмосферное давление: {pressure} мм.рт.ст.",
+    "en": "\u2139 Weather in city {name} (id: {id})\n{emoji} {conditions}\nTemperature: {temp}\u00b0F\n\ud83d\udca8 Wind: {wind[smile]} {wind[direction]}, speed: {wind[speed]} mph\n\ud83d\udca7 Humidity: {humidity}%\nPressure: {pressure} hPa"
+  },
+  "move_ban_spam": {
+    "ru": "\u2705 Пользователь {login} забанен за спам",
+    "en": "\u2705 User {login} is banned because he is spammer"
+  },
+  "wind0": {"ru": "штиль", "en": "calm"},
+  "windn": {"ru": "северный", "en": "north"},
+  "windw": {"ru": "западный", "en": "west"},
+  "winds": {"ru": "южный", "en": "south"},
+  "winde": {"ru": "восточный", "en": "east"},
+  "windnw": {"ru": "северо-западный", "en": "northwest"},
+  "windne": {"ru": "северо-восточный", "en": "northeast"},
+  "windsw": {"ru": "юго-западный", "en": "southwester"},
+  "windse": {"ru": "юго-восточный", "en": "southeaster"},
+  "casino_first": {
+    "ru": "Первая цифра: {num}\u20e3",
+    "en": "First digit: {num}\u20e3"
+  },
+  "casino_second": {
+    "ru": "Вторая цифра: {num}\u20e3",
+    "en": "Second digit: {num}\u20e3"
+  },
+  "casino_third": {
+    "ru": "Третья цифра: {num}\u20e3",
+    "en": "Third digit: {num}\u20e3"
+  },
+  "casino_win": {
+    "ru": "\u2705 Поздравляем! ВЫ ВЫИГРАЛИ!!",
+    "en": "\u2705 Hooray! YOU WIN A JACKPOT!!"
+  },
+  "casino_fail": {
+    "ru": "\u274c Не в этот раз",
+    "en": "\u274c You are lose, try again later"
+  },
+  "strict_on": {
+    "ru": "\u2705 Строгий режим включен",
+    "en": "\u2705 Strict mode is switched on"
+  },
+  "strict_off": {
+    "ru": "\u2705 Строгий режим выключен",
+    "en": "\u2705 Strict mode is switched off"
+  },
+  "admin_cg_error": {
+    "ru": "\u274c Команда введена неверно",
+    "en": "\u274c Command is typed incorrectly"
+  },
+  "admin_cg_404": {
+    "ru": "\u274c Указанного пользователя не существует",
+    "en": "\u274c User does not exist"
+  },
+  "admin_cg_group": {
+    "ru": "\u274c Указанной группы не существует. Попробуйте 0, 2, 3, banned, users или moderators.",
+    "en": "\u274c Group does not exist. Try 0, 2, 3, banned, users or moderators."
+  },
+  "howtoagree": {
+    "ru": "Если вы согласны с правилами, наберите /confirm@ITCatBot. В противном случае покиньте чат.",
+    "en": "If you agree these rules, type /confirm@ITCatBot, else quit this chat."
+  },
+  "agreethanks": {
+    "ru": "\u2705 Вы уже подтвердили правила. Спасибо!",
+    "en": "\u2705 You've already confirmed our rules. Thank you!"
+  },
+  "confirm": {
+    "ru": "\u2705 Приятного общения! Не нарушайте правила!",
+    "en": "\u2705 Pleasant communication! Don't break the rules!"
+  },
+  "no_rules_chat": {
+    "ru": "\u274c В этом чате не установлены правила, продолжайте флудить",
+    "en": "\u274c Rules is not acceptable to this chat, let's flood!"
+  },
+  "norulesconfirm": {
+    "ru": "\u274c Если нет правил, то подтверждать нечего!",
+    "en": "\u274c No rules, no confirmations!"
+  },
+  "user_group_2": {
+    "ru": "\u2139 Вы в группе \"Пользователи\"",
+    "en": "\u2139 You are in \"Users\" group"
+  },
+  "user_group_3": {
+    "ru": "\u2139 Вы в группе \"Модераторы\"",
+    "en": "\u2139 You are in \"Moderators\" group"
+  },
+  "user_group_4": {
+    "ru": "\u2139 Создатель бота",
+    "en": "\u2139 My creator"
+  }
+}

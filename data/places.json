@@ -1,0 +1,18 @@
+[
+  {"zoom": 19, "center": "45.12372,-123.113747", "name_ru": "Логотип Firefox", "name_en": "Firefox Logo"},
+  {"zoom": 18, "center": "51.8486708,-0.5548147", "name_ru": "Лев", "name_en": "Lion"},
+  {"zoom": 18, "center": "47.883697,106.9044895", "name_ru": "Надпись в Монголии", "name_en": "Mongol label"},
+  {"zoom": 21, "center": "52.376552,5.198308", "name_ru": "Мужчина тащит труп", "name_en": "A man dragging a corpse"},
+  {"zoom": 15, "center": "40.452107,93.742118", "name_ru": "Линии", "name_en": "Lines"},
+  {"zoom": 15, "center": "40.458148,93.393145", "name_ru": "Линии 2", "name_en": "Lines-2"},
+  {"zoom": 18, "center": "37.401437,-116.86773", "name_ru": "Зона 52", "name_en": "Zone 52"},
+  {"zoom": 20, "center": "-16.5749962,-71.8012183", "name_ru": "Стрелка и Z", "name_en": "Arrow and Z"},
+  {"zoom": 21, "center": "45.7033191,21.3021796", "name_ru": "НЛО", "name_en": "UFO"},
+  {"zoom": 16, "center": "-17.9745716,-70.239259", "name_ru": "Надписи", "name_en": "Labels"},
+  {"zoom": 20, "center": "45.4081345,-123.0078723", "name_ru": "Самолет в деревьях", "name_en": "Aircraft in trees"},
+  {"zoom": 20, "center": "51.3623581,7.5579153", "name_ru": "Истребитель на парковке", "name_en": "Aircraft on parking"},
+  {"zoom": 21, "center": "36.9492934,-122.0653257", "name_ru": "Кости", "name_en": "Bones"},
+  {"zoom": 19, "center": "38.8594309,111.6027466", "name_ru": "Дыра в Китае", "name_en": "Hole in China"},
+  {"zoom": 16, "center": "54.468431,64.7966632", "name_ru": "Ленину 100 лет", "name_en": "Lenin's age is 100"},
+  {"zoom": 17, "center": "53.340744,87.1748966", "name_ru": "40 лет Победы", "name_en": "40 years from Victory in WWII"}
+]
